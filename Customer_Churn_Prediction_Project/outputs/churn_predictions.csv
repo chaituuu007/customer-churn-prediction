@@ -1,0 +1,4 @@
+CustomerID,Actual_Churn,Predicted_Churn,Churn_Probability,Churn_Risk
+CUST-1014,1,1,0.7893,High
+CUST-1013,0,0,0.3403,Medium
+CUST-1008,0,0,0.1007,Low

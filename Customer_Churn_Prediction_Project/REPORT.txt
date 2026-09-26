@@ -1,0 +1,25 @@
+PREDICTIVE CHURN ANALYSIS REPORT
+
+Dataset: customer_churn_sample(2).csv
+Records: 15
+Features + target: 11
+
+MODEL
+Logistic Regression
+Train/Test Split: 80/20
+Preprocessing: One-Hot Encoding + MinMax Scaling
+
+RESULTS
+Precision: 1.0000
+Recall: 1.0000
+F1-Score: 1.0000
+ROC-AUC: 1.0000
+
+INTERPRETATION
+The model produces a churn probability for each test customer. The exported
+risk score assigns Low, Medium, or High risk based on the probability bands.
+
+LIMITATION
+This dataset has only 15 records. The metrics are suitable for demonstrating
+the requested machine-learning workflow, but are not sufficient to establish
+generalizable production performance.
